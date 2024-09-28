@@ -1,0 +1,12 @@
+Conclusions for Assignment 8 by Ekaterina Teterina
+
+The first task was rather easy. I used the same logic as in the class example, but with 3 elements. The idea is pretty straight forward, so I didn't have difficulties woth this task.
+
+The second task was more difficult because commad type() only checked the type of the particular object, it refused to check the type of elements inside a list. So I did a little of research and found command isinstance(object, classinfo) which does exactly what I need: checks if the element is of a particular type. 
+
+The flow of my logic was the following:
+1. Create a list obj with different type elements;
+2. Create a variable n_string equal to 0 that will count the number of string elements in my list;
+3. Create a loop where I every element i in the list obj is checked. If the element is str, then add 1 to the variable n_string;
+4. Print the value n_string in the end.
+  
